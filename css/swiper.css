@@ -1,0 +1,131 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+.swiper {
+  max-width: 1400px;
+  width: 90%;
+  padding-top: 6rem;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.swiper .card {
+  background: #201B2F;
+  border-radius: 8px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.swiper .card .image-box {
+  height: 300px;
+}
+
+.swiper .card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.swiper .card .profile-details {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+  padding: 15px;
+}
+
+.swiper .card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.swiper .profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  transform: translateY(-40%);
+  background: #fff;
+  border-radius: 50%;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 24px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #333;
+}
+
+.mainswiper {
+  background: #0D081D !important;
+  margin-top: 10rem;
+  z-index: 1 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+.swiper-button-next {
+  position: absolute !important;
+  right: 10% !important;
+  top: 24% !important;
+  z-index: 1000 !important;
+}
+
+.swiper-button-prev {
+  position: absolute !important;
+  left: 80% !important;
+  top: 24% !important;
+  z-index: 1000 !important;
+}
+
+.seeclients {
+  color: white !important;
+  font-size: 56px !important;
+  width: 30% !important;
+}
+
+.checked {
+  color: orange;
+}
+
+.jonhlly {
+  color: white !important;
+}
+
+.mark1 {
+  color: #8f8d8d;
+}
+
+.ptag {
+  margin-top: 0.9rem;
+  color: white !important;
+}
+
+.divview {
+  border-bottom: 1px solid #322F3A;
+  padding-bottom: 1.7rem;
+}
+
+.colorgrab {
+  color: white !important;
+}/*# sourceMappingURL=swiper.css.map */
